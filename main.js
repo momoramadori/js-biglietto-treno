@@ -2,7 +2,7 @@
 
 //Numero chilometri che intende percorrere
 var km = prompt('Quanti km devi percorrere?');
-document.getElementById('km').innerHTML = ("Devi coprire: " + km + ' km')
+document.getElementById('km').innerHTML = ("Distanza: " + km + ' km')
 
 //Età del passeggero
 var age = prompt('Quanti hanni hai?');
