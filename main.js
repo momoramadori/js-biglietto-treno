@@ -17,4 +17,6 @@ if ( age < 18 ) {
     var ticketPrice = (km * 0.21);
 }
 
-document.getElementById('prezzo').innerHTML = ( "Il prezzo del biglietto è: € " + ticketPrice );
+var ticketPrice2 = ticketPrice.toFixed(2)
+
+document.getElementById('prezzo').innerHTML = ( "Il prezzo del biglietto è: € " + ticketPrice2 );
